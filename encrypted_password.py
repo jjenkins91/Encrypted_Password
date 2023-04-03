@@ -7,7 +7,7 @@ If a hacker got access of the database, they would only see the encrypted passwo
 
 import pyodbc as odbc
 """
-Makes connection to SQL Server
+Makes connection to SQL Server. Changed SERVER_NAME and DATABASE_NAME for security purposes. 
 """
 DRIVER_NAME = "SQL SERVER"
 SERVER_NAME = "place_server_name_here"
